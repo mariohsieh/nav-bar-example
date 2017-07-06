@@ -42,3 +42,7 @@ header ul li {
     background-color: white;
     color: gray;
 }
+
+.bg-black {
+    background-color: rgba(0,0,0,.75);
+}
