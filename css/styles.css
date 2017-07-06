@@ -1,0 +1,44 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+header ul {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+header ul li {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page-link {
+    padding: 0 40px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.5em;
+}
+
+.page-link:hover {
+    color: lightskyblue;
+}
+
+.active {
+    background-color: white;
+    color: gray;
+}
